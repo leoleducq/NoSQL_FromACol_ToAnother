@@ -4,6 +4,6 @@ from pymongo import MongoClient
 #Connection BDD NoSQL
 
 def NoSQLConnect():
-    client = MongoClient("url", port(default:27017)
+    client = MongoClient("url", "port")
     db = client['collection_name']
     return db
